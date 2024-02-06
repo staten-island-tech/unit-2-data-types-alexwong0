@@ -25,8 +25,8 @@ def is_tenured(status):
 y = float(3)
 print(x,y) """
 
-values = [1,2.23,5,7,2,30,15]
-""" print(values)
+""" values = [1,2.23,5,7,2,30,15]
+print(values)
 for i in values:
     print(i) """
 
@@ -39,10 +39,56 @@ z = y[0] #z = first word of the split string
 print(y)
 print(z) """
 
-sentence = input("I like pizza, and ice cream")
-for i in sentence:
-    print(i)
-    y=i.split()
-    words_list = y(",")
-print(len(words_list))
-  
+""" sentence = input()
+word = sentence.split()
+print(len(word))
+ """
+
+""" day_of_week = input("what day is it?")
+if day_of_week == "Friday":
+    print("correct")
+else:
+    print("incorrect") """
+
+""" x = "test"
+print(f"hello {x}") """
+
+""" temp = 68
+if temp > 68:
+    print('warm')
+elif temp == 68:
+    print('perfect')
+else:
+    print('cold') """
+
+""" n = input()
+if n == '2':
+    print('even')
+elif n == '4':
+    print ('even')
+elif n == '6':
+    print('even')
+else:
+    print ('oddball')
+ """
+n = int(input())
+if (n % 2) == 0:
+    print('even')
+else:
+    print ('odd')
+
+""" service = input()
+if service == "great":
+    print('25%')
+elif service == "good":
+    print('20%')
+elif service == "mid":
+    print('15%')
+elif service == "bad":
+    print('0%')
+else:
+    print('Dont pay the bill') """
+
+
+num = input()
+    if num is 
