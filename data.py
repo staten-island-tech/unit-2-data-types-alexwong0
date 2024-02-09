@@ -86,7 +86,7 @@ else:
 
 
 
-def gcf(x,y):
+""" def gcf(x,y):
     if x > y:
         smaller = y
     else:
@@ -101,7 +101,7 @@ factor2 = int(input("Put your 2nd number here:"))
 
 print("Greatest Common Factor between your numbers:", gcf(factor1, factor2))
 
-""" print("Factors of number 1: ".format(factor1))
+print("Factors of number 1: ".format(factor1))
 for i in range(1, factor1+1):
     if(factor1 % i == 0 ):
         print(i)
@@ -109,4 +109,5 @@ for i in range(1, factor1+1):
 print("Factors of number 2: ".format(factor2))
 for i in range(1, factor2+1):
     if(factor2 % i == 0 ):
-        print(i) """
+        print(i)  """
+
