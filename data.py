@@ -72,7 +72,9 @@ else:
     print ('oddball')
  """
 
-""" service = input("How was the service? Put here:")
+
+
+""" service = input("How was the service? Use words great, good, mid, or bad. Put here:")
 if service == "great":
     print('25%')
 elif service == "good":
@@ -84,9 +86,10 @@ elif service == "bad":
 else:
     print('Dont pay the bill') """
 
+factor1 = int(input("Put your 1st number here:"))
+factor2 = int(input("Put your 2nd number here:"))
 
-
-""" def gcf(x,y):
+def gcf(x,y):
     if x > y:
         smaller = y
     else:
@@ -96,10 +99,6 @@ else:
             gcf = i
     return gcf
 
-factor1 = int(input("Put your 1st number here:"))
-factor2 = int(input("Put your 2nd number here:"))
-
-print("Greatest Common Factor between your numbers:", gcf(factor1, factor2))
 
 print("Factors of number 1: ".format(factor1))
 for i in range(1, factor1+1):
@@ -109,5 +108,7 @@ for i in range(1, factor1+1):
 print("Factors of number 2: ".format(factor2))
 for i in range(1, factor2+1):
     if(factor2 % i == 0 ):
-        print(i)  """
+        print(i) 
+
+print("Greatest Common Factor between your numbers:", gcf(factor1, factor2))
 
