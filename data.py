@@ -61,16 +61,18 @@ elif temp == 68:
 else:
     print('cold') """
 
-""" n = input()
+n = input()
 if n == '2':
     print('even')
+elif n == "3":
+    print('odd')
 elif n == '4':
     print ('even')
 elif n == '6':
     print('even')
 else:
-    print ('oddball')
- """
+    print ('odd')
+
 
 
 
