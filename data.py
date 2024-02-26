@@ -114,5 +114,5 @@ for i in range(1, factor2+1):
     if(factor2 % i == 0 ):
         print(i) 
 
-print("Greatest Common Factor between your numbers:", gcf(factor1, factor2)) """
-
+print("Greatest Common Factor between your numbers:", gcf(factor1, factor2))
+ """
